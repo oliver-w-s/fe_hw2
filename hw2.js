@@ -19,3 +19,9 @@ console.log(task2);
 
 let task3 = itemsObject.reduce((acc, obj) => acc + obj.quantity * obj.price, 0);
 console.log(task3);
+
+const string =
+  " Perhaps The Easiest-to-understand Case For Reduce Is To Return The Sum Of All The Elements In An Array ";
+
+let task4 = string.replace(/\W/g, "").toLowerCase();
+console.log(task4);
